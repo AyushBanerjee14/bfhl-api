@@ -1,13 +1,12 @@
-import express from "express";
+express = require("express");
 
 const app = express();
 app.use(express.json());
 
-// Replace with your details
-const FULL_NAME = "john_doe"; // lowercase
-const DOB = "17091999"; // ddmmyyyy
-const EMAIL = "john@xyz.com";
-const ROLL_NUMBER = "ABCD123";
+const FULL_NAME = "ayush_banarjee";
+const DOB = "14112002"; // ddmmyyyy
+const EMAIL = "banerjeeayush51@gmail.com";
+const ROLL_NUMBER = "22BCE8338";
 
 app.post("/bfhl", (req, res) => {
   try {
